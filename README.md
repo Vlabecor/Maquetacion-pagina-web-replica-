@@ -1,5 +1,5 @@
-○ Proyecto maquetacion web.
-○ Diseño de una maqueta replica de una pagina web ya construida.
-○ HTML (estructura), CSS (estilo) Git: Sistema de control de versiones para gestionar cambios
-○ link público GitHub Pages, Visual Studio Code (VS Code).
-○ Vladimir bejarano cordoba.
+○ NOMBRE DE EL PROYECTO: Maquetacion web replica.
+○ DESCRIPCION: Diseño de una maqueta replica de una pagina web ya construida.
+○ TECNOLOGIAS USADAS: HTML (estructura), CSS (estilo) Git: control de versiones
+○ INTRUCCIONES DE VISUALIZACION: link público GitHub Pages, Visual Studio Code (VS Code).
+○ AUTOR: Vladimir bejarano cordoba.
