@@ -6,6 +6,13 @@
 }
 
 @font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'FugazOne-Regular';
     src: url('../fonts/FugazOne-Regular.ttf') format('truetype');
     font-weight: normal;
