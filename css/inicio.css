@@ -5,10 +5,31 @@
     letter-spacing: 0.5px;
     font-weight: 800;
 }
-
-.menu{
-    width: 100%;display:flex;gap:20px;align-items:center;
+.header-container{
+    width: 80%;padding-left:10%;padding: right 10%;display:flex;justify-content:space-between;align-items:center;position:fixed;top:0;left:0;z-index:1000;
 }
+.menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.menu a {
+  color: #333;
+  font-size: 1rem;
+  padding: 6px 4px;
+  transition: color .18s ease;
+}
+.menu a:hover { color: #00bcd4; }
+
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
 
 .section1{
    height: 600px;
