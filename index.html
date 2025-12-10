@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="cdn-icons-png.flaticon.com">
+    <link rel="stylesheet" href="cdn-icons-font.flaticon.com">
+    <link rel="stylesheet" href="css/inicio.css">
+
 </head>
 <body>
     <header style="width: 100%;background-color:white;padding:15px 30px;display:flex;justify-content:space-between;align-items:center;position:fixed;top:0;left:0;z-index:1000;">
@@ -12,18 +16,18 @@
           <a style="font-family:'FugazOne-Regular', Courier, monospace;font-size:medium;color:#000">Arquitectura</a>
        </div>
        <nav class="menu" id="menu">
-        <a>Inicio</a>
-        <a>Somos</a>
-        <a>Servicios</a>
-        <div>
+        <a href="#inicio">Inicio</a>
+        <a href="#somos">Somos</a>
+        <a href="#servicios">Servicios</a>
+        <div href="#proyectos">
          <a>Galeria de proyectos</a>
         </div>
-        <a>Productos finales</a>
-        <a>Contàctanos</a>
+        <a href="#productosfinales">Productos finales</a>
+        <a href="#contactas">Contàctanos</a>
        </nav>
     </header>
     <main>
-        <section class="section1" style="background-image: url('assets/img/Background/section-1.png');height: 600px;background-size: cover;background-position: center;display: flex;flex-direction: column;justify-content: space-between;align-items: center;color: #fff;text-align: center;">
+        <section id="servicios" class="section1" style="background-image: url('assets/img/Background/section-1.png');height: 600px;background-size: cover;background-position: center;display: flex;flex-direction: column;justify-content: space-between;align-items: center;color: #fff;text-align: center;">
             <div style="padding-top: 20%;">
                 <h2 style="font-family: 'FugazOne-Regular', Courier, monospace;color:#000;">Museo de  arte moderno</h2>
                 <p style="font-family: 'Arial', sans-serif;color:#000;">Explora nuestros proyectos innovadores y descubre cómo transformamos espacios en obras maestras arquitectónicas.</p>
@@ -74,8 +78,62 @@
                 </div>
             </div>
         </section>
-        <section>
-            
+        <section style="padding-left: 10%;padding-right: 10%;">
+            <h2 style="font-family: 'FugazOne-Regular', Courier, monospace;color:#000;text-align:center;margin-top:40px;">Nuestros Proyectos</h2>
+            <div style="display: flex;width: 100%;justify-content: center;align-items: center;gap: 20px;padding-top: 20px;"> 
+                <div style="width: 33%; height:250px;">
+                    <div style="padding: 10px;justify-content:center;align-items:center;text-align:center;">
+                         <img src="assets/img/project1.png" style="width: 50px;height:50px;">
+                    </div>
+                    <div  style="justify-content:center;align-items:center;text-align:center;">
+                        <h3>Casa Campestre</h3>
+                         <p>Masagni dolores eoquie voluptate msequi nesciunt.</p>
+                    </div>
+                </div>
+                <div style="width: 33%; height:250px;">
+                    <div style="padding: 10px;justify-content:center;align-items:center;text-align:center;">
+                         <img src="assets/img/project1.png" style="width: 50px;height:50px;">
+                    </div>
+                    <div  style="justify-content:center;align-items:center;text-align:center;">
+                        <h3>Casa Campestre</h3>
+                         <p>Masagni dolores eoquie voluptate msequi nesciunt.</p>
+                    </div>
+                </div>
+                <div style="width: 33%; height:250px;">
+                    <div style="padding: 10px;justify-content:center;align-items:center;text-align:center;">
+                         <img src="assets/img/project1.png" style="width: 50px;height:50px;">
+                    </div>
+                    <div  style="justify-content:center;align-items:center;text-align:center;">
+                        <h3>Casa Campestre</h3>
+                         <p>Masagni dolores eoquie voluptate msequi nesciunt.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section style="padding-left: 10%;padding-right: 10%;">
+            <h2 style="font-family: 'FugazOne-Regular', Courier, monospace;color:#000;text-align:center;margin-top:40px;">Nuestros Proyectos</h2>
+            <div class="carousel-container">
+            <div class="carousel">
+                <img src="assets/img/carrusel/carrusel1.png" alt="Proyecto 1">
+                <img src="assets/img/carrusel/carrusel2.png" alt="Proyecto 1">
+                <img src="assets/img/carrusel/carrusel3.png" alt="Proyecto 1">
+                <img src="assets/img/carrusel/carrusel4.png" alt="Proyecto 1">
+                <img src="assets/img/carrusel/carrusel5.png" alt="Proyecto 1">
+                <img src="assets/img/carrusel/carrusel6.png" alt="Proyecto 1">
+                <img src="assets/img/carrusel/carrusel7.png" alt="Proyecto 1">
+                <img src="assets/img/carrusel/carrusel8.png" alt="Proyecto 1">
+                <img src="assets/img/carrusel/carrusel9.png" alt="Proyecto 1">
+                <img src="assets/img/carrusel/carrusel10.png" alt="Proyecto 1">
+            </div>
+            </div>
+        </section>
+        <section style="margin-top:20px; height:350px; background-image: url('assets/img/Background/back2.jpg');background-size:cover">
+            <div  style="justify-content:center;align-items:center;text-align:center; padding-top: 100px;">
+                 <h3>Casa Campestre</h3>
+                 <p>Masagni dolores eoquie voluptate msequi nesciunt.</p>
+                 <h3>Casa Campestre</h3>
+
+            </div>
         </section>
     </main>
     <footer>
