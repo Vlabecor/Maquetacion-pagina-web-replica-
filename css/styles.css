@@ -26,3 +26,10 @@ body {
 h1 {
     color: #0935b1;
 }
+
+.subtitle{
+    font-family: 'FugazOne-Regular', Courier, monospace;color:#000;
+}
+.parrafo{
+    font-family: 'Arial', sans-serif;color:#000;
+}
